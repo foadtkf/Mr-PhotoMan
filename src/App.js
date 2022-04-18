@@ -13,6 +13,7 @@ import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import Footer from './components/Footer/Footer';
 import RequireAuth from './components/RequireAuth/RequireAuth'
+import Error from './components/Error/Error';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       <Route path='/login' element={<Login></Login>}></Route>
       <Route path='/signup' element={<Signup></Signup>}></Route>
       <Route path='/home' element={<Home></Home>}></Route>
-
+<Route path='*' element={<Error></Error>}></Route>
     </Routes>
     <Footer></Footer>
     </div>
