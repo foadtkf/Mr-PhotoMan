@@ -20,7 +20,7 @@ const Home = () => {
                 />
                 <Carousel.Caption>
                     <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <p>wildlife photography often constitutes the images of animals in movement or action</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,7 +32,7 @@ const Home = () => {
 
                 <Carousel.Caption>
                     <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>There will be so much happening that day.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,7 +45,7 @@ const Home = () => {
                 <Carousel.Caption>
                     <h3>Third slide label</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    Fashion photography is a genre of photography
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
