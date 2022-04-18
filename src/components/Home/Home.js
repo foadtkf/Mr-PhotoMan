@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
+import Extra from '../Extra/Extra';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -51,6 +52,7 @@ const Home = () => {
             </Carousel.Item>
         </Carousel>
         <Services></Services>
+        <Extra></Extra>
         </div>
     );
 };
