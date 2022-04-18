@@ -39,6 +39,7 @@ const Signup = () => {
 
         await createUserWithEmailAndPassword(email, password);
         await updateProfile({ displayName: name });
+        if(error)
         navigate('/');
     }
 

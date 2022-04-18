@@ -10,7 +10,7 @@ const Service = ({service}) => {
         navigate(`/checkout`);
     }
     return (
-        <div className='service p-2 h-100 m-2'>
+        <div className='service p-'>
             <img className='w-100 h-50' src={img} alt="" />
             <h2>{name}</h2>
             <p>Price: {price}</p>
